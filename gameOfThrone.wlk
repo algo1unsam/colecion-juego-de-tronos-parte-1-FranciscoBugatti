@@ -21,7 +21,13 @@ object daenerys{
         return inventario
     }
     method mostrar_todo() {
-        return inventario+RocaDragon
+        method m (){
+            return inventario
+        }
+        method n (){
+            return RocaDragon
+        }
+        //return inventario+RocaDragon
     }
     method mostrar_historial() {
         return historial
